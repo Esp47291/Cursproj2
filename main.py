@@ -15,7 +15,7 @@ def cli() -> None:
         epilog=textwrap.dedent(
             """\
             Пример:
-              python main.py --query "Python" --top 5
+              python main.py --query "Python" -top 5
             """
         ),
     )
